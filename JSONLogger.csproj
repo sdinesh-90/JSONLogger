@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutDir>bin\</OutDir>
+    <AssemblyVersion>2022.3.1.0</AssemblyVersion>
+    <FileVersion>2022.3.1.0</FileVersion>
+    <Copyright>Metamation</Copyright>
+    <Company>Metamation</Company>
+    <Product>JSONLogger</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="RABase">
+      <HintPath>bin\RABase.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
